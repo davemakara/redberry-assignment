@@ -6,7 +6,15 @@ const Landing = () => {
     <div className="py-[77px] px-[162px]">
       <h1>Landing</h1>
       <Link to="/listingDetails">Go</Link>
-      <ListingCard />
+      <div className="w-full grid grid-cols-4 gap-5">
+        <ListingCard />
+        <ListingCard />
+        <ListingCard />
+        <ListingCard />
+        <ListingCard />
+        <ListingCard />
+        <ListingCard />
+      </div>
     </div>
   );
 };
